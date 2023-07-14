@@ -1,0 +1,116 @@
+* {    
+	box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: 'Segoe UI';
+  background: #212121;
+  color: #dedede;
+}
+
+/* Header */
+.header {
+	background-color: #333;
+    padding: 5px;
+    text-align: center;
+}
+.header h1 {
+	font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+	padding: 10px;
+}
+.header p {
+	font-style: italic;
+}
+
+/* Navigation */
+.topnav {
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Body */
+.card {
+	background-color: #333;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card h5 {
+	font-style: italic;
+	margin-top: 5px;
+}
+.description {
+	margin-top: 10px;
+}
+
+/* Gallery */
+.grid {
+    display: grid;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 350px;
+    gap: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+.grid2 {
+    display: grid;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 150px;
+    gap: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+.grid3 {
+    display: grid;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+.grid4 {
+    display: grid;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 600px;
+    gap: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+.grid, grid2, grid3, grid4, a {
+	width: 100%;
+    height: 100%;
+}
+.grid, grid2, grid3, grid4, img {
+	object-fit: cover;
+	width: 100%;
+    height: 100%;
+}
+	
+/* Footer */
+.footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
